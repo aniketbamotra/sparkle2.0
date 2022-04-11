@@ -1,0 +1,43 @@
+.page-title{
+    font-family: var(--serif);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 74px;
+    border-bottom: 1px solid;
+    text-align: center;
+    padding: 2.5rem 0rem;
+    margin: 0;
+    text-transform: uppercase;
+}
+.search-wrap{
+    border-bottom: 1px solid;
+    padding: 0rem 2rem;
+}
+.total-prod-no{
+    font-family: var(--sans);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 22px;
+    display: inline-block;
+}
+.search-container{
+    float: right;
+    border: 2px solid;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    margin-top: .8rem;
+    background-color: transparent;
+    font-family: var(--sans);
+    width: 20rem;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 22px;
+}
+.store-body{
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+}

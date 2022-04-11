@@ -1,0 +1,33 @@
+.prod-wrap{
+    padding: 3rem 3rem 0rem 3rem;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    height: max-content;
+}
+.prod-wrap img{
+    width: 384px;
+    height: 384px;
+    object-fit: cover;
+    display: block;
+}
+.product-name{
+    font-family: var(--serif);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 5px;
+    display: inline-block;
+    width: 50%;
+}
+.product-price{
+    font-family: var(--sans);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: right;
+    margin-top: 5px;
+    display: inline-block;
+    width: 50%;
+}

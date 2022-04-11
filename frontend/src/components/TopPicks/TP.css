@@ -1,0 +1,42 @@
+.top-items{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/src/asserts/media/spotlight-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top-items .top-prod-wrap{
+    background-color: rgb(var(--light-color));
+    width: 25rem;
+    height: 30rem;
+    border-radius: 6px;
+    padding-bottom: 0.5rem;
+    filter: drop-shadow(13px 12px 9px rgba(0, 0, 0, 0.3));
+    cursor: pointer;
+}
+.top-items .prod-wrap{
+    border: none;
+    padding: 1.5rem;
+}
+.top-items img{
+    width: 100%;
+    border-radius: 6px;
+}
+.top-items a{
+    text-decoration: none;
+    color: var(--dark-color);
+}
+@media (max-width: 1440px) {
+    .top-items .top-prod-wrap{
+        height: 25rem;
+    }
+    .top-prod-wrap .product-name{
+        font-size: 18px;
+    }
+    .top-prod-wrap .product-price{
+        font-size: 18px;
+    }    
+}

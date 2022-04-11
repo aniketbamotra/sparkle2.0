@@ -1,0 +1,23 @@
+.user-details-container {
+  width: 65vw;
+  display: flex;
+  border-bottom: 1px solid;
+}
+.contact-wrap,
+.add-wrap,
+.ship-type-wrap {
+  border-left: 1px solid;
+  flex: 1;
+  padding: 5rem 0rem 5rem 0rem;
+}
+.user-details-container h4 {
+  margin-left: 5rem;
+}
+.user-details-container p {
+  margin: 0.5rem 0.5rem 0rem 5rem;
+  font-family: var(--sans);
+  font-size: 18px;
+}
+.paypal-wrap {
+  margin: 5rem 14rem;
+}

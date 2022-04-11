@@ -1,0 +1,46 @@
+.forms{
+    width: 65vw;
+    padding: 2rem 0rem 3rem 0rem;
+}
+.contact, .shipping, .shipping-method{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 7rem;
+}
+.contact input, .shipping input, .radio-wrap{
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 6px;
+    font-family: var(--sans);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    padding-left: .5rem;
+    width: 70%;
+    margin: .5rem 1rem;
+}
+#csz{
+    display: flex;
+    width: 75%;
+   
+}
+.form-title{
+    font-family: var(--sans);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 74px;
+    margin: 0;
+}
+.radio-wrap label{
+    padding-left: 1rem;
+}
+.forms .cart-btn-container{
+    padding: 0rem 28rem 0rem 10rem;
+}
+.forms .cart-btn-container button{
+    width: 48%;
+    height: fit-content;
+    line-height: 36px;
+}

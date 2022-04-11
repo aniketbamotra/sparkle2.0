@@ -1,0 +1,80 @@
+.order-wrap{
+    padding: 3rem 2.5rem 3rem 2.5rem;
+    background-color: rgb(var(--accent-color));
+    color: rgb(var(--light-color));
+    min-height: 20rem;
+    height: fit-content;
+}
+.order-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 1rem 0rem;
+}
+.order-item img{
+    width: 180px;
+    height: 180px;
+    border-radius: 6px;
+    grid-area: 1/1/4/2;
+    margin-right: 2rem;
+}
+.order-item-name, .order-item-price, .qnty-text, .qnty-no{
+    margin: 0;
+}
+.order-item-name{
+    font-family: var(--sans);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    align-self: flex-start;
+}
+.order-item-price{
+    font-family: var(--sans);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    justify-self: end
+}
+.qnty{
+    align-self: end;
+    display: flex;
+    align-items: center;
+}
+.qnty-text, .qnty-no{
+    font-family: var(--sans);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 1rem;
+}
+.order-item .qnty-no{
+    border: 2px solid;
+    padding: .1rem .5rem;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: normal;
+}
+.order-sub-total{
+    border-top: 1px solid rgb(var(--light-color));
+}
+.order-ship-total{
+    border-bottom: 1px solid rgb(var(--light-color));
+}
+.order-price-text{
+    display: inline-block;
+    font-family: var(--sans);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.order-amt{
+    float: right;
+    text-align: right;
+}
+.order-total-price{
+    font-family: var(--serif);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}

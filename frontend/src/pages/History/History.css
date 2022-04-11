@@ -1,0 +1,32 @@
+.his-part-container{
+    display: flex;
+}
+.his-part-container img, .his-para{
+    flex: 1;
+}
+.his-part-container img{
+    min-width: 50vw;
+    height: 695px;
+    object-fit: cover;
+}
+.his-para{
+    padding: 0rem 10rem;
+    align-self: center;
+}
+.his-part-container p{
+    font-family: var(--sans);
+    justify-self: center;
+    align-self: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+.his-imgs-container{
+    display: flex;
+}
+.his-imgs-container img{
+    flex: 1;
+    width: 25vw;
+    object-fit: cover;
+}

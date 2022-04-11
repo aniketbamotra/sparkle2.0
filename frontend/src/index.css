@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Yeseva+One&display=swap');
+
+:root{
+    --sans: 'Josefin Sans';
+    --serif: 'Yeseva One';
+    --accent-color: 121, 58, 23;
+    --dark-color: 12, 18, 12;
+    --light-color: 238, 238, 238;
+
+}
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden;  */
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+#bg-img{
+    min-width: 100%;
+    height: 100%;
+    background-image: url(/src/asserts/media/bg-img.jpg);
+    position: fixed;
+    z-index: -100;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

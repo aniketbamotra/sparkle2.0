@@ -1,0 +1,45 @@
+.filter-wrap{
+    position: relative;
+    width: 338px;
+    min-height: 100vh;
+    border-bottom: 1px solid;
+    flex: 1;
+}
+.flt-sticky-container{
+    position: sticky;
+    top: 1px;
+    height: fit-content;
+}
+.filter{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.filter-title{
+    font-family: var(--serif);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 74px;
+    text-align: center;
+    border-bottom: 1px solid;
+    /* border-top: 1px solid; */
+    margin: 0;
+    text-transform: uppercase;
+}
+.filter-ele{
+    font-family: var(--sans);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+.filter:nth-last-child(1){
+    border-bottom: 1px solid;
+}
+.filter:nth-last-child(2){
+    border-bottom: 1px solid;
+}
+
