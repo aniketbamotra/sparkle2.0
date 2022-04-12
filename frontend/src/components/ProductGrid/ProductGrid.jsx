@@ -12,7 +12,7 @@ const ProductGrid = ({ filter, sort }) => {
   useEffect(() => {
     const getProducts = async () => {
       try {
-        const res = await axios.get("http://woodsy-backend.eba-uej58ayn.us-west-2.elasticbeanstalk.com/api/products");
+        const res = await axios.get("http://127.0.0.1:8000/api/products");
         setProducts(res.data);
         console.log(res);
       } catch (err) {}
@@ -61,9 +61,9 @@ const ProductGrid = ({ filter, sort }) => {
   return (
     <div className="grid-wrap">
       {filteredProducts.map((product) => (
-          <Link key={product._id} to={`/product/${product._id}`}>
-            <Product product={product} />
-          </Link>
+        <Link key={product._id} to={`/product/${product._id}`}>
+          <Product product={product} />
+        </Link>
       ))}
     </div>
   );

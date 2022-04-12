@@ -3,9 +3,9 @@
 :root{
     --sans: 'Josefin Sans';
     --serif: 'Yeseva One';
-    --accent-color: 121, 58, 23;
-    --dark-color: 12, 18, 12;
-    --light-color: 238, 238, 238;
+    --accent-color: 246, 151, 112;
+    --dark-color: 21, 21, 21;
+    --light-color: 255, 254, 255;
 
 }
 html,body
@@ -22,7 +22,7 @@ body{
 #bg-img{
     min-width: 100%;
     height: 100%;
-    background-image: url(/src/asserts/media/bg-img.jpg);
+    background-color: #FFE5D1;
     position: fixed;
     z-index: -100;
     background-repeat: no-repeat;

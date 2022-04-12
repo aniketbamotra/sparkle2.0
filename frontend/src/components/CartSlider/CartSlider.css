@@ -7,7 +7,7 @@
     padding: 2rem;
     border-left: 1px solid;
     border-bottom: 1px solid;
-    background: url("../../asserts/media/bg-img.jpg");
+    background-color: #FFE5D1;
     transition: transform 0.3s ease;
 }
 .cart-sect-title{
