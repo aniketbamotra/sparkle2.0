@@ -58,8 +58,8 @@
 }
 .logo-container{
     width: 5rem;
-    height: 5rem;
-    background-image: url(/public/asserts/logo/textured.svg);
+    height: 5.4rem;
+    background-image: url(/src/asserts/logo/Frame.svg);
     background-size: cover;
     cursor: pointer;
 }

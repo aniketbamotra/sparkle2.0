@@ -25,13 +25,16 @@ const Home = () => {
       </div>
       <div className="product-intro">
         <h3 className="intro-text">
-          CREATING GIFTS WITH <br />A LONG AND RICH <br />
-          HISTORY.
+          Be what you want to be
+          <br />
+          and wear what you
+          <br />
+          like.
         </h3>
         <p className="intro-para">
-          Developed the concept of exclusivity, a Woodsyshoppe features timeless
+          Developed the concept of exclusivity, The Sparkle features timeless
           handicraft, with natural fabrics, curved lines, plenty of mirrors and
-          classic design, which can be incorporated into any decor project. The
+          classic design, which can be incorporated into any wardrobe. The
           pieces enchant for their sobriety, to last for generations, faithful
           to the shapes of each period, with a touch of the present.
         </p>

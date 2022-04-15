@@ -14,10 +14,11 @@ const Footer = () => {
         </ul>
         <ul className="ft-list">
           <h4 className="ft-list-title">Categories</h4>
-          <li className="ft-list-item">Decor</li>
-          <li className="ft-list-item">Furnicher</li>
-          <li className="ft-list-item">Storage</li>
-          <li className="ft-list-item">Wearables</li>
+          <li className="ft-list-item">Rings</li>
+          <li className="ft-list-item">Necklaces</li>
+          <li className="ft-list-item">Earrings</li>
+          <li className="ft-list-item">Bracelets</li>
+          <li className="ft-list-item">Bags</li>
         </ul>
         <ul className="ft-list">
           <h4 className="ft-list-title">Policies</h4>
@@ -34,7 +35,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="copy">
-        <h4 className="copy-text">&copy; Copyright Woodsyshop | 2022</h4>
+        <h4 className="copy-text">&copy; Copyright The Sparkle | 2022</h4>
         <h4 className="credit">Design: Aniket Bamotra</h4>
       </div>
     </footer>
