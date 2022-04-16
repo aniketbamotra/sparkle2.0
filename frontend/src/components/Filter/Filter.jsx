@@ -3,10 +3,11 @@ import "./Filter.css";
 
 const categories = [
   { label: "All Products", value: "all" },
-  { label: "Decor", value: "decor" },
-  { label: "Furniture", value: "furniture" },
-  { label: "Storage", value: "storage" },
-  { label: "Wearables", value: "wearables" },
+  { label: "Rings", value: "rings" },
+  { label: "Necklace", value: "necklace" },
+  { label: "Earrings", value: "earrings" },
+  { label: "Bracelets", value: "bracelets" },
+  { label: "Bags", value: "bags" },
 ];
 
 const sortBy = [
@@ -18,7 +19,6 @@ const sortBy = [
 ];
 
 const Filter = ({ setFilter, setSort }) => {
-
   return (
     <div className="filter-wrap">
       <div className="flt-sticky-container">
