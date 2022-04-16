@@ -1,4 +1,4 @@
-#!d:\web development\sparklee_3.0\backend\env\scripts\python.exe
+#!D:\Web Development\sparklee_3.0\backend\env\Scripts\python.exe
 
 import sys
 import json

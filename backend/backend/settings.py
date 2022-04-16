@@ -93,22 +93,22 @@ import os
 #         }
 #     }
 # else:
-#     DATABASES = {
-#         'default': {
-#             'ENGINE': 'django.db.backends.sqlite3',
-#             'NAME': BASE_DIR / 'db.sqlite3',
-#         }
-#     }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ebdb',
-        'USER': 'woodsyDB',
-        'PASSWORD': 'woodsyshoppe',
-        'HOST': 'aa1kdt4wrn2a4rd.cgwruacp2hxe.us-west-2.rds.amazonaws.com',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'ebdb',
+#         'USER': 'woodsyDB',
+#         'PASSWORD': 'woodsyshoppe',
+#         'HOST': 'aa1kdt4wrn2a4rd.cgwruacp2hxe.us-west-2.rds.amazonaws.com',
+#         'PORT': '5432',
+#     }
+# }
 
 
 
@@ -146,28 +146,28 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-# STATIC_URL = 'static/'
-# STATICFILES_DIRS= [
-#     BASE_DIR / 'static'
-# ]
-AWS_STORAGE_BUCKET_NAME = 'woodsy-static'
-AWS_S3_REGION_NAME = 'us-west-2'  # e.g. us-east-2
-AWS_ACCESS_KEY_ID = 'AKIAZFWWGSEZNCCAAJYO'
-AWS_SECRET_ACCESS_KEY = 'YQoMHRJjhN9dVq6a6Baisc4jrEOXfIkb5STrOxYL'
-# Tell django-storages the domain to use to refer to static files.
-AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
-AWS_S3_OBJECT_PARAMETERS = {
-    'CacheControl': 'max-age=94608000',
-}
-AWS_S3_FILE_OVERWRITE = False
-AWS_DEFAULT_ACL = 'public-read'
-AWS_LOCATION = 'static'
-# Tell the staticfiles app to use S3Boto3 storage when writing the collected static files (when
-# you run `collectstatic`).
-STATIC_URL = 'https://%s/%s/'%(AWS_S3_CUSTOM_DOMAIN, AWS_LOCATION)
-STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+STATIC_URL = 'static/'
+STATICFILES_DIRS= [
+    BASE_DIR / 'static'
+]
+# AWS_STORAGE_BUCKET_NAME = 'woodsy-static'
+# AWS_S3_REGION_NAME = 'us-west-2'  # e.g. us-east-2
+# AWS_ACCESS_KEY_ID = 'AKIAZFWWGSEZNCCAAJYO'
+# AWS_SECRET_ACCESS_KEY = 'YQoMHRJjhN9dVq6a6Baisc4jrEOXfIkb5STrOxYL'
+# # Tell django-storages the domain to use to refer to static files.
+# AWS_S3_CUSTOM_DOMAIN = '%s.s3.amazonaws.com' % AWS_STORAGE_BUCKET_NAME
+# AWS_S3_OBJECT_PARAMETERS = {
+#     'CacheControl': 'max-age=94608000',
+# }
+# AWS_S3_FILE_OVERWRITE = False
+# AWS_DEFAULT_ACL = 'public-read'
+# AWS_LOCATION = 'static'
+# # Tell the staticfiles app to use S3Boto3 storage when writing the collected static files (when
+# # you run `collectstatic`).
+# STATIC_URL = 'https://%s/%s/'%(AWS_S3_CUSTOM_DOMAIN, AWS_LOCATION)
+# STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
-DEFAULT_FILE_STORAGE = 'backend.media-storage.MediaStorage'
+# DEFAULT_FILE_STORAGE = 'backend.media-storage.MediaStorage'
 MEDIA_URL = '/images/'
 MEDIA_ROOT= 'static/images'
 

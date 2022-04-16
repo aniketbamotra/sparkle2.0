@@ -5,7 +5,7 @@ import { AllProd } from "../../products";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
-const ProductGrid = ({ filter, sort }) => {
+const ProductGrid = ({ filter, sort, getTotalProduct }) => {
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
 
@@ -57,6 +57,9 @@ const ProductGrid = ({ filter, sort }) => {
       );
     }
   }, [sort]);
+
+  const totalProductNum = filteredProducts.length;
+  getTotalProduct(totalProductNum);
 
   return (
     <div className="grid-wrap">
